@@ -4,7 +4,7 @@ import { Phone } from "lucide-react"
 
 export function Hero() {
     return (
-        <section className="relative min-h-[90vh] w-full flex items-center bg-[#0A0E27] overflow-hidden pt-8 lg:pt-0 border-none">
+        <section className="relative min-h-[90vh] w-full flex items-center bg-[#0A0E27] overflow-hidden pt-8 lg:pt-0 !border-0 -mb-px">
             {/* Background Pattern - Subtle Grid */}
             <div className="absolute inset-0 z-0 opacity-[0.03]"
                 style={{
@@ -91,9 +91,9 @@ export function Hero() {
                         {/* CTA Button */}
                         <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
                             <a href="tel:+351935267663">
-                                <Button className="bg-[#D4AF37] hover:bg-[#C19A2E] text-black font-bold px-8 lg:px-10 py-6 lg:py-8 h-auto rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 text-base lg:text-lg flex items-center gap-3">
+                                <Button className="bg-[#D4AF37] hover:bg-[#C19A2E] text-black font-bold px-5 lg:px-10 py-4 lg:py-8 h-auto rounded-full transition-all duration-300 shadow-xl hover:shadow-2xl hover:-translate-y-1 text-base lg:text-lg flex items-center gap-3">
                                     <Phone className="w-5 h-5 lg:w-6 lg:h-6 fill-current" />
-                                    Ligue agora +351 935 267 663
+                                    Ligar +351 935 267 663
                                 </Button>
                             </a>
                         </div>
