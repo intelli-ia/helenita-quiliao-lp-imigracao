@@ -25,7 +25,7 @@ export function Pitch() {
     ]
 
     return (
-        <section id="pitch" className="relative bg-[#0A0E27] pt-24 pb-8 lg:pt-32 lg:pb-12 overflow-hidden">
+        <section id="pitch" className="relative bg-[#0A0E27] pt-24 pb-8 lg:pt-32 lg:pb-12 overflow-hidden border-none">
 
 
 

@@ -14,14 +14,7 @@ export function Navbar() {
             const scrollY = window.scrollY
             const heroHeight = window.innerHeight
             
-            // On desktop, hide on first section. On mobile, keep visible (or adjust if needed)
-            const isDesktop = window.innerWidth >= 1024
-            
-            if (isDesktop) {
-                setIsVisible(scrollY > heroHeight * 0.7)
-            } else {
-                setIsVisible(true) // Always visible on mobile for easier navigation
-            }
+            setIsVisible(scrollY > heroHeight * 0.7)
             
             setScrolled(scrollY > 20)
         }
