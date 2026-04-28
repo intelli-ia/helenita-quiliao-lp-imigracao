@@ -4,6 +4,7 @@ import { Process } from "@/components/sections/process"
 import { CTA } from "@/components/sections/cta"
 import { Testimonials } from "@/components/sections/testimonials"
 import { About } from "@/components/sections/about"
+import { Map } from "@/components/sections/map"
 
 export function Home() {
   return (
@@ -14,6 +15,7 @@ export function Home() {
       <Testimonials />
       <About />
       <CTA />
+      <Map />
     </main>
   )
 }
