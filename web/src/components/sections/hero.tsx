@@ -40,7 +40,7 @@ export function Hero() {
                     >
                         {/* Main Image Container with offset layout like model */}
                         <div className="relative w-full max-w-[620px]">
-                            <div className="aspect-[3/2] lg:aspect-[4/5] rounded-[1.5rem] lg:rounded-[3rem] overflow-hidden shadow-2xl z-10 border-4 lg:border-8 border-white/10 backdrop-blur-sm">
+                            <div className="aspect-[3/2] lg:aspect-[4/5.3] rounded-[1.5rem] lg:rounded-[3rem] overflow-hidden shadow-2xl z-10 border-4 lg:border-8 border-white/10 backdrop-blur-sm">
                                 <img
                                     src="/view-lisbon-river-tagus-portugal.webp"
                                     alt="Lisboa - Rio Tejo"
