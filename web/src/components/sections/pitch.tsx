@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { ShieldCheck, FileText, Landmark, Phone } from "lucide-react"
+import { Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Pitch() {

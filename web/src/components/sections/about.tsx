@@ -1,5 +1,5 @@
 import { motion } from "framer-motion"
-import { MapPin, Globe, Award, Phone } from "lucide-react"
+import { MapPin, Globe, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function About() {

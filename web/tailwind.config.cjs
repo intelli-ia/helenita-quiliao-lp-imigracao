@@ -22,11 +22,6 @@ module.exports = {
         garamond: ["EB Garamond", "serif"],
       },
       colors: {
-        // Intelli Brand Colors
-        'intelli-green': '#BFFF00',
-        'intelli-blue': '#0A0E27',
-        'intelli-offwhite': '#FDFBF7',
-        'intelli-gray': '#A0A0A0',
 
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

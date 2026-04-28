@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <ScrollToTop />
-      <div className="min-h-screen bg-[#faf5ed] selection:bg-[#BFFF00] selection:text-[#0A0E27]">
+      <div className="min-h-screen bg-[#faf5ed] selection:bg-[#D4AF37] selection:text-[#0A0E27]">
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
