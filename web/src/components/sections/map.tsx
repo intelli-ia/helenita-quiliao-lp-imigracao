@@ -43,11 +43,11 @@ export function Map() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     whileInView={{ opacity: 1, scale: 1 }}
                     viewport={{ once: true }}
-                    className="relative w-full aspect-[16/9] lg:aspect-[21/9] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white group"
+                    className="relative w-full aspect-square lg:aspect-[21/9] rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-white group"
                 >
                     <iframe 
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6252.678542255536!2d-9.10308684723431!3d38.769903376047495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19319b25f1845d%3A0x18fd6f9c1df8561a!2sDra.%20Helenita%20Quili%C3%A3o%20-%20Advogados%20em%20Lisboa!5e0!3m2!1spt-BR!2sbr!4v1777410398209!5m2!1spt-BR!2sbr" 
-                        className="w-full h-full grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
+                        className="w-full h-full lg:grayscale lg:opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-700"
                         style={{ border: 0 }} 
                         allowFullScreen 
                         loading="lazy" 

@@ -54,7 +54,7 @@ export function About() {
                         transition={{ duration: 0.8 }}
                         className="flex flex-col gap-8 max-w-xl w-full"
                     >
-                        <div>
+                        <div className="text-center lg:text-left">
                             <span className="text-[#D4AF37] font-semibold tracking-widest uppercase text-sm mb-4 block">Sobre</span>
                             <h2 className="font-garamond text-4xl md:text-5xl lg:text-6xl text-[#0A0E27] leading-tight mb-8">
                                 Helenita Quilião
