@@ -18,10 +18,10 @@ export function Hero() {
             <div className="absolute top-0 left-0 w-full h-full bg-[radial-gradient(circle_at_80%_70%,rgba(212,175,55,0.03)_0%,transparent_50%)]" />
 
             <div className="container mx-auto px-4 md:px-8 relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-x-12 items-start pt-4 lg:pt-32">
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-x-16 items-start pt-4 lg:pt-32">
                     
-                    {/* 1. Logo - Always Top in its column flow */}
-                    <div className="lg:col-span-6 flex justify-center lg:justify-start order-1">
+                    {/* 1. Logo - Top on mobile, Top Left on desktop */}
+                    <div className="lg:col-span-6 lg:col-start-1 lg:row-start-1 flex justify-center lg:justify-start order-1">
                         <div className="w-44 md:w-40">
                             <img
                                 src="/logo-helenita-quiliao-400.webp"
@@ -31,12 +31,12 @@ export function Hero() {
                         </div>
                     </div>
 
-                    {/* 2. Right Column - Images (Between logo and text on mobile) */}
+                    {/* 2. Right Column - Images (Between logo and text on mobile, Right side on desktop) */}
                     <motion.div
                         initial={{ opacity: 0, x: 30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8, delay: 0.2 }}
-                        className="lg:col-span-6 lg:row-span-2 relative flex justify-center lg:justify-end order-2 lg:order-none lg:-mt-16"
+                        className="lg:col-span-6 lg:col-start-7 lg:row-start-1 lg:row-span-2 relative flex justify-center lg:justify-end order-2 lg:order-none lg:-mt-20"
                     >
                         {/* Main Image Container with offset layout like model */}
                         <div className="relative w-full max-w-[620px]">
@@ -71,12 +71,12 @@ export function Hero() {
                         </div>
                     </motion.div>
 
-                    {/* 3. Left Column - Content (Below images on mobile) */}
+                    {/* 3. Left Column - Content (Below images on mobile, Below logo on desktop) */}
                     <motion.div
                         initial={{ opacity: 0, x: -30 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.8 }}
-                        className="lg:col-span-6 flex flex-col gap-6 lg:gap-10 items-center lg:items-start text-center lg:text-left order-3 lg:order-none"
+                        className="lg:col-span-6 lg:col-start-1 lg:row-start-2 flex flex-col gap-6 lg:gap-10 items-center lg:items-start text-center lg:text-left order-3 lg:order-none lg:-mt-6"
                     >
                         {/* Headline */}
                         <div className="space-y-4 lg:space-y-6">
